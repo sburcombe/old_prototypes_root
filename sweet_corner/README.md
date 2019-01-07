@@ -8,4 +8,4 @@
 	- Images - contains images to be included on the site
 	- SC_preview - contains design docs on how the site will look
 
->#### Instructions for all versions can be found <a href="http://lfzprototypes.com/module-one/projects" target="_blank">HERE</a>
+>#### Instructions for all versions can be found <a href="http://lfzprototypes.com/root-level-one/projects" target="_blank">HERE</a>
