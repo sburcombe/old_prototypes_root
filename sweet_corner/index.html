@@ -1,37 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Qwigley" rel="stylesheet">
         <style>
             html {
                 font-family: sans-serif;
+                width: 1000px;
             }
+
             body {
                 margin: 0 auto;
                 font-size: 0;
 
             }
+
             header {
                 text-align: center;
-                font-family: cursive, sans-serif;
+                font-family: Qwigley, cursive, sans-serif;
                 font-size: 4vmin;
+                border-bottom-style: solid;
+                border-bottom-width: 24px;
+                border-bottom-color: #754b23;
+                position: relative;
+
+
             }
+
             main {
-                border-top-style: solid;
-                border-top-width: 24px;
-                border-top-color: #754b23;
+                width: 55%;
+                display: table-cell;
             }
+
             .top-image {
-                background-color: orange;
+                background-image: url('images/header.png');
                 height: 100px;
+                background-repeat: no-repeat;
+                background-size: cover;
             }
+
             footer {
                 height: 80px;
                 padding-top: 20px;
                 background-color: #06b4af;
+                color: white;
             }
+
             body > * {
                 font-size: 1rem;
             }
+            aside{
+                width: 45%;
+                background-image: url('images/strips2.png');
+                background-size: contain;
+                display: table-cell;
+            }
+
+            footer > div {
+                width: 33.33%;
+                text-align: center;
+
+            }
+
+            .menu {
+                position: absolute;
+                top: 29%;
+                width: 39%;
+                left: 61%;
+
+
+
+
+            }
+
 
         </style>
     </head>
@@ -44,6 +84,7 @@
             <div>
                 We deliver cupcakes for the important events in your life!
             </div>
+            <img src="images/faux-menu.png" class="menu">
         </header>
         <main>
             <h1>
@@ -71,8 +112,20 @@
                 Their delicious taste, great variety and fine flavors will delight you! The best choice for a chic dessert! How can you possibly resist?
             </p>
         </main>
+        <aside>
+
+        </aside>
         <img src="images/cupcakes.png">
     <footer>
+        <div>
+            Sweetcorner.com
+        </div>
+        <div>
+            &copy; 2018 all rights reserved
+        </div>
+        <div>
+            800 264 2099
+        </div>
 
     </footer>
 
